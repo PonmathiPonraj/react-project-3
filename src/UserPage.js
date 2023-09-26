@@ -1,6 +1,6 @@
 import React from 'react';
-import { useCartContext } from '../CartContext';
-import CartButton from '../CartButton'; // Import the CartButton component
+import { useCartContext } from './store/CartContext';
+import CartButton from './CartButton'; // Import the CartButton component
 
 function UserPage() {
     const { cartState } = useCartContext();
